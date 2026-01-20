@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<h1 style="text-align: center;">Rezervacija stola</h1>
+
+<h2>Osobni podatci</h2>
+
+<form>
+<label for="ime">Ime:</label>
+<input type="text" id="ime" name="ime">
+<br><br>
+<label for="E-mail">E-mail:</label>
+<input type="text" id="email" name="email">
+<br><br>
+<label for="telefon">Telefon:</label>
+<input type="text" id="telefon" name="telefon">
+</form>
+<br><br>
+
+<h2>Detalji rezervacije</h2>
+<form>
+<label for="grad">Grad:</label>
+<select id="grad" name="grad">
+    <option value="sarajevo">Sarajevo</option>
+    <option value="mostar">Mostar</option>
+    <option value="Livno">Livno</option>
+</select>    
+
+<br><br>
+<label for="datum">Datum rezervacije:</label>
+<input type="date" id="datum" name="datum">
+<br><br>
+<label for="vrijeme">Vrijeme rezervacije:</label>
+<input type="time" id="vrijeme" name="vrijeme">
+<br><br>
+<label for="broj_osoba">Broj osoba:</label>
+<input type="number" id="broj_osoba" name="broj_osoba" min="1" max="20">
+<br><br>
+</form>
+<br><br>
+    
+<h2>Potvrda rezervacije</h2>
+<form>
+<button type="submit">Rezerviraj</button>
+</form>
+
+
+</body>
+</html>

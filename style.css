@@ -1,0 +1,14 @@
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #AA6C39; /* boja restorana */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #8f582e;
+}
